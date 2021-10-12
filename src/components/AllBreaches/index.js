@@ -125,7 +125,12 @@ function EnhancedTable({ breachesData }) {
         <TableContainer>
           {breachesData.loading ? (
             <Stack
-              sx={{ color: "grey.500", flex: 1 }}
+              sx={{
+                color: "grey.500",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: 200
+              }}
               spacing={2}
               direction="row"
             >
