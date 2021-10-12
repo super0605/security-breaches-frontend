@@ -1,15 +1,8 @@
 import React from "react";
 
-import { Container, MainContainer, MainContent } from "./styled";
-
+// TODO: add AppLayout
 const Layout = ({ children }) => {
-  return (
-    <Container>
-      <MainContainer>
-        <MainContent>{children}</MainContent>
-      </MainContainer>
-    </Container>
-  );
+  return <div>{children}</div>;
 };
 
 export default Layout;
